@@ -1,0 +1,6 @@
+print("Hi dear coustemer, pleas Enter C.P. an Discount")
+CP=int(input("C.P.= "))
+D=int(input("Discount= "))
+d=CP*D/100
+sp=CP-d
+print("Your dicounted prise is ",sp,)
