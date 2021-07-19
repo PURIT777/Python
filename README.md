@@ -1,2 +1,2 @@
 # Python
-..
+Hi, I am Purvesh From a school opened this account for just my personal use so....
