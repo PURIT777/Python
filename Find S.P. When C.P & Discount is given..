@@ -1,6 +1,9 @@
 print("Hi dear coustemer, pleas Enter C.P. an Discount")
 CP=int(input("C.P.= "))
 D=int(input("Discount= "))
-d=CP*D/100
-sp=CP-d
-print("Your dicounted prise is ",sp,)
+if (0<D<100):
+        d=CP*D/100
+        sp=CP-d
+        print("Your dicounted prise is ",sp)
+else:
+   print("Discount can only be between 0 to 101 so pls input it properly")
